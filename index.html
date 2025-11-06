@@ -4,24 +4,23 @@
     <title>Exercise 7: Typography</title>
 
     <style>
-
       body {
+        margin: 15px;
         font-family: "Stack Sans Headline", sans-serif;
         color: #222;
         background: #f6f3ea;
-        margin: 50px;
 
       }
-      
 
       .container {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 24px;   /* set your page edge gap here */
-  display: grid;
-  grid-template-columns: 40% 60%;
-  gap: 2em;
-}
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 16px;
+        /* set your page edge gap here */
+        display: grid;
+        grid-template-columns: 38% 62%;
+        gap: 2em;
+      }
 
       h1,
       h2,
@@ -61,7 +60,8 @@
         margin: 16px 0 2px;
       }
 
-      .prep h3+p {
+      .prep h3,
+      p {
         margin-top: 0;
       }
 
@@ -69,6 +69,7 @@
       li {
         font-size: 1em;
         line-height: 1.5;
+        padding-right: 40px;
       }
 
       .details {
@@ -77,6 +78,7 @@
         color: #222;
         line-height: 1.5;
         font-weight: 500;
+
       }
 
       ul {
@@ -92,18 +94,20 @@
         font-size: 0.9em;
         line-height: 1.5;
       }
-      
+
 
       .ingredients li {
         margin: 4px 0;
       }
 
       .photo img {
-        width: 100%;
+        width: 110%;
         height: auto;
         display: block;
-
         border-radius: 20px;
+        margin-left: -40px;
+
+
       }
     </style>
   </head>

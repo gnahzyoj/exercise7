@@ -4,23 +4,25 @@
     <title>Exercise 7: Typography</title>
 
     <style>
-      body {
-        margin: 15px;
+      html,
+      
+      body { max-width: 1000px; margin: 0; 
         font-family: "Stack Sans Headline", sans-serif;
         color: #222;
-        background: #f6f3ea;
+        background: #f6f3ea;}
 
-      }
-
+     
       .container {
-        max-width: 1200px;
-        margin: 40px auto;
-        padding: 0 16px;
-        /* set your page edge gap here */
-        display: grid;
-        grid-template-columns: 38% 62%;
-        gap: 2em;
-      }
+  width: 1000px;       
+  margin: 40px auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 40px;
+  row-gap: 28px;
+  box-sizing: border-box;
+}
+
 
       h1,
       h2,
